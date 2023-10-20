@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <Style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(78, 87, 84);
+        }
+        header{
+            background-color:rgb(141, 185, 214);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;/*Add this*/
+        }
+        .header-content h1{
+            font-size: 2.5rem;
+        }
+        /* Add styles for the round portfolio picture */
+        .profile-picture{
+            width: 100px;
+            height: 100px;
+            border-radius: 75%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            left: 75px;
+        }
+        nav{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li{
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .section-content{
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .download-button{
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .download-button:hover{
+            background-color: #555;
+        }
+        footer{
+            text-align: center;
+            padding: 1 rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+        ul{
+            list-style: disc;
+            padding-left: 20px;
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!---Add your profile picture here--->
+            <img src="image\my.jpg" alt="profile pic" class="profile-picture">
+            <h1>I'm Subanu</h1>
+            <p> Student</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello Everyone!This is Subanu.S and i am Computer Science Student.i'm growth web devoloper</p>
+        </div>
+    </section>
+    <section id="education">
+        <div class="section-content">
+            <h2>B.SC</h2>
+            <p>Arumugam Pillai Seethai Ammal College</p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA SCRIPT</li>
+            <li>Microsoft office</li>
+            </ul>
+        </div>
+    </section>
+    <section id="Projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Project 1</a></li>
+                <li><a href="#">Project 2</a></li>
+                <!----Add more project links here--->
+            </ul>
+        </div>
+    </section>
+    <section id="resume">
+        <center>
+            <div class="section-content">
+                <h2>Resume</h2>
+                <a href="image\resume.jpg" class="download-button">Download CV</a>
+            </div>
+        </center>
+    </section>
+    <footer>
+        <p>&copy;2023Subanushanmu</p>
+    </footer>
+</body>
+</html>
